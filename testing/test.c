@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 #define TRUE 1
 
 int main(void){
@@ -17,5 +19,5 @@ int main(void){
 
 	printf("program selesai\n");
 
-	return 0;
+	return EXIT_SUCCESS;
 }
