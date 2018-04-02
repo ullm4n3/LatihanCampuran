@@ -1,7 +1,9 @@
+FILENAME=`pwd`/test.c
+PATH=`pwd`
 
 all:
-	gcc `pwd`/test.c -o `pwd`/outfile
+	gcc $FILENAME -o $PATH/outfile
 
 clean:
-	rm `pwd`/outfile
+	rm $PATH/outfile
 
